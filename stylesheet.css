@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    padding: 0 15px;
+    background-color: #878787;
+    outline: none;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 27px;
+    color: white;
+    height: 38px;
+}
+
+.active {
+    background-color: #063278;
+}
+
+.inactive {
+    background-color: #878787;
+}
+
+#header {
+    background-color: #063278;
+    text-align: center;
+    color: white;
+    border: 1px #063278 solid;
+    height: 230px;
+    padding: 20px 0 0 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: #878787;
+    color: white;
+    justify-items: center;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 27px;
+    height: 38px;
+    align-items: center;
+}
+
+.gameplay {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.colourBox {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 10px;
+}
